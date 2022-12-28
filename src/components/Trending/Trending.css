@@ -1,0 +1,28 @@
+.programs {
+  margin-top: 4rem;
+}
+.programs__container {
+  align-items: center;
+}
+.programs__wrapper {
+  grid-gap: 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 4rem;
+}
+.programs__program a {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.programs__program:hover a {
+  background: var(--color-secondary);
+  color: var(--color-gray-600);
+}
+.section__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
