@@ -19,7 +19,12 @@ const Trending = () => {
           trnding.map((id, name, offer, price, imge, path) => {
             return (
               <div key={id} className="">
-                <div className="card"></div>
+                <div className="card">
+                  <h1>{name}</h1>
+                  <span><img src={imge} alt="logo" /></span>
+                  <small>{price}</small>
+                  <Link to={path}>ADD TO CART <AiOutlinePlus/></Link>
+                </div>
               </div>
             );
           })
