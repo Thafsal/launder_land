@@ -21,7 +21,7 @@ const Trending = () => {
                 <h3>{name}</h3>
                 <h5>{offer}</h5>
                 <span><img src={imge} alt={name} /></span>
-                <small>{price}</small>
+                <h4>{price}</h4>
                 <Link to={path} className="btn sm">
                   Learn More <AiOutlinePlus />
                 </Link>

@@ -21,7 +21,7 @@ const Popular = () => {
               <div className="cards popular__program" key={id}>
                 <h3>{name}</h3>
                 <span><img src={imge} alt={name} /></span>
-                <small>{price}</small>
+                <h4>{price}</h4>
                 <Link to={path} className="btn sm">
                   ADD TO CART <AiOutlinePlus />
                 </Link>

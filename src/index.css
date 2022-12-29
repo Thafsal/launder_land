@@ -94,7 +94,7 @@ img {
   font-size: 0.9rem;
 }
 .btn.sm:hover {
-  background: var(--color-gray-100);
+  background: white;
 }
 
 section {

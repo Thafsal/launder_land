@@ -1,0 +1,43 @@
+.about ,.about__content{
+    margin-top: 4rem;
+  }
+  .about__container {
+    align-items: center;
+  }
+  .about__wrapper {
+    grid-gap: 3rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4rem;
+  }
+  .about__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.about__btn{
+    color: white;
+    background: darkcyan;
+    border: 1px solid darkcyan;
+    border-radius: 50px;
+    padding: 4px;
+    margin-top: 1rem;
+}
+.about__content {
+    margin-bottom: 3rem;
+}
+/* MEDIA QUERIES MEDIUME DEVICES */
+@media screen and (max-width: 1024px) {
+    .about__wrapper {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  /* MEDIA QUERIES SMALL DEVICES */
+  @media screen and (max-width: 600px) {
+    .about__wrapper {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+  }

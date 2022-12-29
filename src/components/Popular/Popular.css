@@ -41,7 +41,7 @@
   transition: var(--transition);
 }
 .cards:hover span {
-  background: #caebf7;
+  background: #bcbcbc8b;
   color: var(--color-gray-600);
   border: 1px solid rgba(97, 96, 96, 0.58);
 }
@@ -52,8 +52,8 @@
   justify-content: center;
 }
 .popular__program:hover a {
-  background: var(--color-secondary);
-  color: var(--color-gray-600);
+  background: #ffffff;
+  color: #caebf7;
 }
 .section__header {
   display: flex;

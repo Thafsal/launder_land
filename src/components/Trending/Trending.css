@@ -18,8 +18,8 @@
   justify-content: center;
 }
 .programs__program:hover a {
-  background: var(--color-secondary);
-  color: var(--color-gray-600);
+  background: #ffffff;
+  color: #caebf7;
 }
 .section__header {
   display: flex;
