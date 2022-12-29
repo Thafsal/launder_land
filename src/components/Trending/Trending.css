@@ -26,3 +26,21 @@
   justify-content: center;
   align-items: center;
 }
+/* MEDIA QUERIES MEDIUME DEVICES */
+@media screen and (max-width: 1024px) {
+  .programs__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* MEDIA QUERIES SMALL DEVICES */
+@media screen and (max-width: 600px) {
+  .programs__wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  .programs__program {
+    width: 84%;
+    margin: 0 auto;
+  }
+}

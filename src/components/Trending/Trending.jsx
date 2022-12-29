@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineFire, AiOutlinePlus } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { trnding } from "../../data";
+import { tdata } from "./tdata";
 import "./Trending.css";
 
 const Trending = () => {
@@ -14,21 +14,20 @@ const Trending = () => {
           </span>
           <h2>TRENDING PRODUCTS</h2>
         </div>
-          <div className="programs__wrapper">
-        {
-          trnding.map((id, name, offer, price, imge, path) => {
+        <div className="programs__wrapper">
+          {tdata.map(({ id, name, offer, price, path, imge }) => {
             return (
-              <div key={id} className="">
-                <div className="card">
-                  <h1>{name}</h1>
-                  <span><img src={imge} alt="logo" /></span>
-                  <small>{price}</small>
-                  <Link to={path}>ADD TO CART <AiOutlinePlus/></Link>
-                </div>
+              <div className="card programs__program" key={id}>
+                <h3>{name}</h3>
+                <h5>{offer}</h5>
+                <span><img src={imge} alt={name} /></span>
+                <small>{price}</small>
+                <Link to={path} className="btn sm">
+                  Learn More <AiOutlinePlus />
+                </Link>
               </div>
             );
-          })
-        }
+          })}
         </div>
       </div>
     </section>
