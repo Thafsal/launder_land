@@ -1,10 +1,11 @@
 import React from 'react';
 import Home from "../Home/HomePage";
-import About from "../About/AboutPage";
+import AboutPage from "../About/AboutPage";
 import Login from "../Login/Login";
 import Logout from "../Logout/Logout";
 import Bookings from "../Bookings/BookingPage";
 import Contact from "../Contact/ContactPage";
+import About from '../About/About';
 import { Route, Routes } from "react-router-dom";
 
 const Routing = () => {
@@ -13,6 +14,7 @@ const Routing = () => {
     <Routes>
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/" element={<Home />} />
+      <Route exact path="/aboutPage" element={<AboutPage />} />
       <Route exact path="/about" element={<About />} />
       <Route exact path="/booking" element={<Bookings />} />
       <Route exact path="/contact" element={<Contact />} />

@@ -1,29 +1,29 @@
-import {AiOutlineHome ,AiTwotoneCalendar ,AiOutlineContacts, AiOutlineLogout} from 'react-icons/ai';
-import {MdOutlineLibraryBooks} from 'react-icons/md';
+import {AiOutlineHome  ,AiOutlineContacts, AiOutlineLogout} from 'react-icons/ai';
+import {MdOutlineAddShoppingCart, MdOutlineLibraryBooks} from 'react-icons/md';
 
 export const links = [
     {
-        name: "Home",
+        name: "HOME",
         icon: <AiOutlineHome/>,
         path: '/'
     },
     {
-        name: "About",
+        name: "ABOUT",
         icon: <MdOutlineLibraryBooks/>,
         path: '/about'
     },
     {
-        name: "Bookings",
-        icon: <AiTwotoneCalendar/>,
+        name: "CART",
+        icon: <MdOutlineAddShoppingCart/>,
         path: '/bookings'
     },
     {
-        name: "Contact",
+        name: "CONTACT",
         icon: <AiOutlineContacts/>,
         path: '/contact'
     },
     {
-        name: "Logout",
+        name: "LOGOUT",
         icon: <AiOutlineLogout/>,
         path: '/logout'
     }

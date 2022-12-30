@@ -27,7 +27,7 @@ const FooterPage = () => {
           </div>
         </article>
         <article>
-            <h4>Permalinks</h4>
+            <h4>Userfull Links</h4>
             <Link to="/about">About</Link>
             <Link to="/plans">Cart</Link>
             <Link to="/account">Account</Link>

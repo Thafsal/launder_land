@@ -1,5 +1,5 @@
 .about ,.about__content{
-    margin-top: 10rem;
+    margin-top: 6.4rem;
   }
   .about__container {
     align-items: center;
@@ -39,8 +39,8 @@
   height: 16rem;
 }
 .box:hover {
-  background: transparent;
-  border-color: rgba(128, 128, 128, 0.539);
+  background:transparent;
+  border-color: rgb(255, 255, 255);
   cursor: default;
 }
 
@@ -59,7 +59,7 @@
   transition: var(--transition);
 }
 .box:hover span {
-  background:  rgba(128, 128, 128, 0.539);
+  background: transparent;
   color: var(--color-gray-600);
 }
 
