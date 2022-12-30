@@ -25,8 +25,8 @@ const AboutPage = () => {
             </h5>
             <Link to='/about' className="about__btn">Learn More...<AiOutlineCaretRight/></Link>
           </div>
-          <div className="card">
-            <img src={abt} alt="logo" />
+          <div className="box">
+            <span><img src={abt} alt="logo" /></span>
           </div>
         </div>
       </div>
