@@ -5,7 +5,7 @@ export const links = [
     {
         name: "Home",
         icon: <AiOutlineHome/>,
-        path: '/home'
+        path: '/'
     },
     {
         name: "About",
