@@ -6,7 +6,7 @@ import Logout from "../Logout/Logout";
 import Contact from "../Contact/ContactPage";
 import About from '../About/About';
 import { Route, Routes } from "react-router-dom";
-import Pricing from '../Bookings/Pricing';
+import Pricing from '../Pricing/Pricing';
 import Cart from "../Cart/Cart"
 
 const Routing = () => {
@@ -17,10 +17,10 @@ const Routing = () => {
       <Route exact path="/" element={<Home />} />
       <Route exact path="/aboutPage" element={<AboutPage />} />
       <Route exact path="/about" element={<About />} />
-      <Route exact path="/booking" element={<Pricing />} />
+      <Route exact path="/pricing" element={<Pricing />} />
       <Route exact path="/contact" element={<Contact />} />
       <Route exact path="/logout" element={<Logout />} />
-      <Route exact path="/logout" element={<Cart />} />
+      <Route exact path="/cart" element={<Cart />} />
     </Routes>
   </>
   )

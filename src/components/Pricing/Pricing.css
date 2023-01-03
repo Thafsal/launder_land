@@ -1,0 +1,78 @@
+.pricing {
+  margin-top: 9.5rem;
+}
+.pricing__container {
+  align-items: center;
+}
+.pricing__wrapper {
+  grid-gap: 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 4rem;
+}
+.price__body {
+  background: white;
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  transition: var(--transition);
+}
+.price__body:hover {
+  background: transparent;
+  border-color: rgba(128, 128, 128, 0.539);
+  cursor: default;
+}
+.price__body span {
+  margin-top: 1.2rem;
+  color: var(--color-gray-100);
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+.price__body p {
+    border-style: dotted;
+    border-top: 2px;
+    border-bottom: 1px;
+    border-color: black;
+}
+.pricing__program a {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing__program:hover a {
+  background: #ffffff;
+  color: #caebf7;
+}
+.section__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* MEDIA QUERIES MEDIUME DEVICES */
+@media screen and (max-width: 1024px) {
+  .pricing__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* MEDIA QUERIES SMALL DEVICES */
+@media screen and (max-width: 600px) {
+  .pricing__wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  .pricing__program {
+    width: 84%;
+    margin: 0 auto;
+  }
+}
