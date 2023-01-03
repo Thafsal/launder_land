@@ -11,6 +11,7 @@
   grid-template-columns: repeat(4, 1fr);
   margin-top: 4rem;
 }
+
 .price__body {
   background: white;
   border: 2px solid transparent;
@@ -21,8 +22,9 @@
 }
 .price__body:hover {
   background: transparent;
-  border-color: rgba(128, 128, 128, 0.539);
+  border-color: rgba(128, 128, 128, 0.63);
   cursor: default;
+  border: 2px solid;
 }
 .price__body span {
   margin-top: 1.2rem;
@@ -36,13 +38,7 @@
   border-radius: 1rem;
   transition: var(--transition);
 }
-.price__body p {
-    border-style: dotted;
-    border-top: 2px;
-    border-bottom: 1px;
-    border-color: black;
-}
-.pricing__program a {
+.pricing__program a,.pricing__program h2{
   margin-top: 2.5rem;
   display: flex;
   align-items: center;
@@ -58,6 +54,21 @@
   align-items: center;
   flex-direction: column;
 }
+@keyframes up-bump {
+  0% {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  50% {
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+  }
+  100% {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+}
+
 /* MEDIA QUERIES MEDIUME DEVICES */
 @media screen and (max-width: 1024px) {
   .pricing__wrapper {

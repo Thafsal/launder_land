@@ -20,8 +20,8 @@ const Pricing = () => {
           {price.map(({id,name,amount,size,delivery,includes,fragrance,time }) => {
             return (
               <div className="price__body pricing__program" key={id}>
-                <h3>{name}</h3>
-                <h4>{amount}</h4>
+                <h4>{name}</h4>
+                <h2>{amount}</h2>
                 <span >
                   <p>{size}</p>
                   <p>{delivery}</p>
