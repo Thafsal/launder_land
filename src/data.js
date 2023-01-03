@@ -1,5 +1,6 @@
 import {AiOutlineHome  ,AiOutlineContacts, AiOutlineLogout} from 'react-icons/ai';
-import {MdOutlineAddShoppingCart, MdOutlineLibraryBooks} from 'react-icons/md';
+import {MdOutlineAddShoppingCart} from 'react-icons/md';
+import {BsCurrencyDollar} from 'react-icons/bs'
 
 export const links = [
     {
@@ -8,14 +9,14 @@ export const links = [
         path: '/'
     },
     {
-        name: "ABOUT",
-        icon: <MdOutlineLibraryBooks/>,
-        path: '/about'
+        name: "PRICING",
+        icon: <BsCurrencyDollar/>,
+        path: '/pricing'
     },
     {
         name: "CART",
         icon: <MdOutlineAddShoppingCart/>,
-        path: '/bookings'
+        path: '/cart'
     },
     {
         name: "CONTACT",
