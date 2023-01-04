@@ -55,8 +55,7 @@ nav {
     left: calc(50% - 0.2rem);
     transform: rotate(44deg);
     margin-top: 0.9rem;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    
   }
   
   /*========= MEDIA QUERIES (MEDIUME AND SMALL) ===============*/
