@@ -11,12 +11,12 @@ const Cart = () => {
         </div>
         <div className="Cart-Items">
           <div className="image-box">
-            <img src="images/apple.png" style={{ height: "120px" }} />
+            <img src="images/apple.png" alt="logo" style={{ height: "120px" }} />
           </div>
           <div className="cart-about">
             <h1 className="title">Apple Juice</h1>
             <h3 className="subtitle">250ml</h3>
-            <img src="images/veg.png" style={{ height: "30px" }} />
+            <img src="images/veg.png" alt="logo" style={{ height: "30px" }} />
           </div>
           <div className="cart-counter"></div>
           <div className="prices"></div>
