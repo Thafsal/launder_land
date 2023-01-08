@@ -37,7 +37,7 @@ export const price = [
         name : "Regular Bag",
         amount : "RS. 500",
         size : "6 KG",
-        delivery : "Home",
+        delivery : "Door to Door",
         includes : "Ironing",
         fragrance : "Perfume",
         time : "12 Hours"
@@ -47,7 +47,7 @@ export const price = [
         name : "Mediume Bag",
         amount : "RS. 800",
         size : "12 KG",
-        delivery : "Home",
+        delivery : "Door to Door",
         includes : "Ironing",
         fragrance : "Perfume",
         time : "10 Hours"
@@ -57,7 +57,7 @@ export const price = [
         name : "Large Bag",
         amount : "RS. 1000",
         size : "15 KG",
-        delivery : "Home",
+        delivery : "Door to Door",
         includes : "Ironing",
         fragrance : "Perfume",
         time : "8 Hours"
@@ -67,7 +67,7 @@ export const price = [
         name : "Extra Large Bag",
         amount : "RS. 1500",
         size : "30 KG",
-        delivery : "Home",
+        delivery : "Door to Door",
         includes : "Ironing,Detergent",
         fragrance : "Perfume",
         time : "8 Hours"

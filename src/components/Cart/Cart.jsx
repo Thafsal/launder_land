@@ -1,5 +1,6 @@
 import React from "react";
 import "./Cart.css";
+import regular from "../../images/regular.jpg"
 
 const Cart = () => {
   return (
@@ -11,12 +12,11 @@ const Cart = () => {
         </div>
         <div className="Cart-Items">
           <div className="image-box">
-            <img src="images/apple.png" alt="logo" style={{ height: "120px" }} />
+            <img src={regular} alt="logo" style={{ height: "120px" }} />
           </div>
           <div className="cart-about">
-            <h1 className="title">Apple Juice</h1>
-            <h3 className="subtitle">250ml</h3>
-            <img src="images/veg.png" alt="logo" style={{ height: "30px" }} />
+            <h1 className="title">Regular Bag</h1>
+            <h3 className="subtitle">6 KG</h3>
           </div>
           <div className="cart-counter"></div>
           <div className="prices"></div>
