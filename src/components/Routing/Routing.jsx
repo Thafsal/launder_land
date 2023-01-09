@@ -2,7 +2,6 @@ import React from 'react';
 import Home from "../Home/HomePage";
 import AboutPage from "../About/AboutPage";
 import Login from "../Login/Login";
-import Logout from "../Logout/Logout";
 import Contact from "../Contact/ContactPage";
 import About from '../About/About';
 import { Route, Routes } from "react-router-dom";
@@ -19,7 +18,7 @@ const Routing = () => {
       <Route exact path="/about" element={<About />} />
       <Route exact path="/pricing" element={<Pricing />} />
       <Route exact path="/contact" element={<Contact />} />
-      <Route exact path="/logout" element={<Logout />} />
+      <Route exact path="/logout" element={<Login />} />
       <Route exact path="/cart" element={<Cart />} />
     </Routes>
   </>
