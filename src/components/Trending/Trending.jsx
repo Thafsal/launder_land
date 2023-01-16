@@ -3,8 +3,13 @@ import { AiOutlineFire, AiOutlinePlus } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { tdata } from "./tdata";
 import "./Trending.css";
+import { useContext } from "react";
+import { MyProvider } from "../../App";
 
 const Trending = () => {
+
+  const data = useContext(MyProvider);
+  console.log(data);
   return (
     <section className="programs">
       <div className="container programs__container">
