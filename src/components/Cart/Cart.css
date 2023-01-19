@@ -1,15 +1,15 @@
 .cart-Container {
-    height: 35rem;
-    width: 65rem;
-    background: #ffffff;
-    border-radius: 42px;
-    box-shadow: 25px 41px 38px #5858585e;
-    display: flex;
-    padding: 0rem 7rem;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: auto;
+  height: 35rem;
+  width: 65rem;
+  background: #ffffff;
+  border-radius: 42px;
+  box-shadow: 25px 41px 38px #5858585e;
+  display: flex;
+  padding: 0rem 7rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
 }
 .Header {
   width: 85rem;
@@ -63,11 +63,11 @@
 }
 .subtitle {
   line-height: 10px;
-    font-size: 18px;
-    font-family: ‘Open Sans’;
-    font-weight: 600;
-    color: #909090;
-    margin-top: 6rem;
+  font-size: 18px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: #909090;
+  margin-top: 6rem;
 }
 .cart-counter {
   width: 15%;
@@ -168,4 +168,73 @@ hr {
   font-family: ‘Open Sans’;
   font-weight: 600;
   color: #202020;
+}
+
+/* MEDIA QUERIES MEDIUME DEVICES */
+@media screen and (max-width: 1024px) {
+  .cart-Container {
+    width: 45rem;
+  }
+  .Cart-Items {
+    width: 97%;
+    height: 24%;
+  }
+  .cart-checkout {
+    margin-right: 0%;
+    width: 50%;
+  }
+}
+/* MEDIA QUERIES SMALL DEVICES */
+@media screen and (max-width: 600px) {
+  .cart-Container {
+    width: 22rem;
+  }
+  .Cart-Items {
+    height: 40%;
+    display: grid;
+    align-content: space-between;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr;
+    justify-items: start;
+}
+.subtitle {
+  line-height: 10px;
+  font-size: 18px;
+  font-family: ‘Open Sans’;
+  font-weight: 600;
+  color: #909090;
+  margin-top: 2rem;
+}
+.title {
+  padding-top: 5px;
+  line-height: 28px;
+  font-size: 32px;
+  font-family: ‘Open Sans’;
+  font-weight: 800;
+  color: #202020;
+}
+  .cart-about {
+    margin-left: 30px;
+  }
+  .cart-counter {
+    display: flex;
+    align-items: center;
+  }
+  .Header {
+    display: flex;
+    padding: 1rem 1rem;
+    background: white;
+    box-shadow: 1px 39px 45px #1516164d;
+    border-radius: 25px;
+    flex-direction: column;
+}
+.image-box {
+  width: 100%;
+  text-align: center;
+  border: 4px solid rgba(91, 90, 90, 0.667);
+  border-radius: 8px;
+}
+.cart-checkout {
+  width: 100%;
+}
 }
