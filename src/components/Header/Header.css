@@ -47,16 +47,15 @@ nav {
   .active-nav::after {
     content: "";
     display: block;
-    border-radius: 100% 1% 1% 1%;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 0.5rem;
+    height: 5.5rem;
     background: var(--color-primary);
     position: absolute;
     left: calc(50% - 0.2rem);
-    transform: rotate(44deg);
-    margin-top: 0.9rem;
-    
-  }
+    transform: rotate(90deg);
+    margin-top: -1.8rem;
+    /* border-radius: 98% 27% 27% 98%; */
+}
   
   /*========= MEDIA QUERIES (MEDIUME AND SMALL) ===============*/
   
