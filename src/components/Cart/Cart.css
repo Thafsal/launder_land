@@ -219,6 +219,7 @@ hr {
   .cart-counter {
     display: flex;
     align-items: center;
+    width: 7rem;
   }
   .Header {
     display: flex;
@@ -236,5 +237,12 @@ hr {
 }
 .cart-checkout {
   width: 100%;
+}
+.cart-total {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: flex-start;
 }
 }
