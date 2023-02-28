@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./ContactPage.css"
 
 function ContactPage() {
   const [name, setName] = useState('');
@@ -13,6 +14,7 @@ function ContactPage() {
 
   return (
     <div>
+      <div className="contact-container">
       <h2>Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
@@ -46,6 +48,7 @@ function ContactPage() {
 
         <button type="submit">Submit</button>
       </form>
+      </div>
     </div>
   );
 }

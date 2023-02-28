@@ -1,0 +1,13 @@
+.contact-container {
+    height: 35rem;
+    width: 65rem;
+    background: #ffffff;
+    border-radius: 42px;
+    box-shadow: 25px 41px 38px #5858585e;
+    display: flex;
+    padding: 0rem 7rem;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+}
