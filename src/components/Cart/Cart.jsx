@@ -1,8 +1,23 @@
 import React from "react";
 import "./Cart.css";
-import regular from "../../images/regular.jpg"
+import regular from "../../images/regular.jpg";
+import { useDispatch, useSelector } from "react-redux";
+import { decrement, increment } from "../../redux/actions";
+
+
 
 const Cart = () => {
+      
+const count = useSelector((state) => state.count);
+const dispatch = useDispatch();
+
+const handleIncrement =() =>{
+  dispatch(increment())
+};
+
+const handleDecrement =() =>{
+  dispatch(decrement())
+};
   return (
     <section>
       <div className="cart-Container">
@@ -21,9 +36,13 @@ const Cart = () => {
           <div className="cart-counter"></div>
           <div className="prices"></div>
           <div className="cart-counter">
-            <div className="cart-btn">+</div>
-            <div className="cart-count">2</div>
-            <div className="cart-btn">-</div>
+            <div className="cart-btn" onClick={handleIncrement}>
+              +
+            </div>
+            <div className="cart-count">{count}</div>
+            <div className="cart-btn" onClick={handleDecrement}>
+              -
+            </div>
           </div>
           <div className="cart-prices">
             <div className="cart-amount">$2.99</div>
