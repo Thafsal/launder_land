@@ -36,12 +36,12 @@ const handleDecrement =() =>{
           <div className="cart-counter"></div>
           <div className="prices"></div>
           <div className="cart-counter">
-            <div className="cart-btn" onClick={handleIncrement}>
-              +
+          <div className="cart-btn" onClick={handleDecrement}>
+              -
             </div>
             <div className="cart-count">{count}</div>
-            <div className="cart-btn" onClick={handleDecrement}>
-              -
+            <div className="cart-btn" onClick={handleIncrement}>
+              +
             </div>
           </div>
           <div className="cart-prices">
