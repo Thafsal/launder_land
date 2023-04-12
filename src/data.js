@@ -27,7 +27,7 @@ export const links = [
     {
         name: "LOGOUT",
         icon: <AiOutlineLogout/>,
-        path: '/logout'
+        path: '/login'
     }
 ]
 

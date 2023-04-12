@@ -6,7 +6,8 @@ import Contact from "../Contact/ContactPage";
 import About from '../About/About';
 import { Route, Routes } from "react-router-dom";
 import Pricing from '../Pricing/Pricing';
-import Cart from "../Cart/Cart"
+import Cart from "../Cart/Cart";
+import UserLogin from '../UserLogin/UserLogin';
 
 const Routing = () => {
   return (
@@ -18,7 +19,7 @@ const Routing = () => {
       <Route exact path="/about" element={<About />} />
       <Route exact path="/pricing" element={<Pricing />} />
       <Route exact path="/contact" element={<Contact />} />
-      <Route exact path="/logout" element={<Login />} />
+      <Route exact path="/UserLogin" element={<UserLogin />} />
       <Route exact path="/cart" element={<Cart />} />
     </Routes>
   </>

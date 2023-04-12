@@ -20,7 +20,7 @@ const Login = () => {
           <h4>New to <i>Launder Land</i></h4>
           <Link to='/create'>Crete an account</Link >
           <h4>Already have an account .?</h4>
-          <Link to='/loginto'>Login</Link >
+          <Link to='/UserLogin'>Login</Link >
         </div>
       </div>
     </header>
