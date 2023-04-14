@@ -8,8 +8,8 @@
     --color-blue: darkcyan;
     --color-light-blue: rgba(8, 220, 220, 0.598);
     --color-gray: #ffffff;
-    --color-dark-gray: #ffffff;
-    --color-pink: #ffffff;
+    --color-dark-gray: #181818;
+    --color-pink: #fcfcfc;
   }
   
   .formcarry-container {
@@ -31,26 +31,27 @@
     font-size: 16px;
     font-weight: 700;
   }
+
+
+.formcarry-form input,
+.formcarry-form textarea {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border: 4px solid var(--color-gray);
+  outline: none;
+  border-radius: 8px;
+  color: var(--color-dark-gray);
+}
   
-  .formcarry-form input,
-  .formcarry-form textarea {
-    font-size: 16px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: var(--color-gray);
-    border: none;
-    border: 4px solid var(--color-gray);
-    outline: none;
-    border-radius: 8px;
-    color: var(--color-dark-gray);
-  }
-  
-  .formcarry-form input:focus,
-  .formcarry-form textarea:focus {
-    background-color: #fff;
-    color: var(--color-dark-gray);
-  }
+.formcarry-form input:focus,
+.formcarry-form textarea:focus {
+  background-color: rgb(250, 242, 242);
+  color: rgb(0, 0, 0); /* optional, sets the text color to white */
+}
   
   .formcarry-form input:focus:required:invalid {
     border-color: var(--color-pink);
